@@ -1,0 +1,46 @@
+.services {
+	margin-top: 7.363%;
+}
+
+.serv {
+	margin: 11.044% auto 10.522%;
+	text-align: center;
+}
+
+	.serv-in {
+		float: left;
+		width: 25%;
+		margin-right: 12.5%;
+		margin-bottom: 121px;
+	}
+
+		.img-serv {
+			margin: 0 auto;
+		}
+			.wacom{
+				width: 54.48%;
+				margin-bottom: 74px;
+			}
+			.camera{
+				width: 37.75%;
+				margin-bottom: 84px;
+			}
+			.notebook{
+				width: 49.42%;
+				margin-bottom: 73px;
+			}
+
+		.serv-in > h3 {
+			font-size: 22px;
+			margin-bottom: 45px;
+		}
+
+		.serv-in > p {
+			font-size: 12px;
+			line-height: 26px;
+		}
+
+	.serv-in:nth-child(3) {
+		margin-right: 0;
+	}
+

@@ -1,0 +1,60 @@
+.team{
+	padding-top: 7.49%;
+	padding-bottom: 8.861%;
+}
+
+	section .team .title{
+			padding-top: 15%;
+		}
+
+			.black-title{
+				color: #000;
+			}
+	
+	.team-description{
+		padding-top: 10.44%;
+		width: 100%;
+		font-size: 0;
+		text-align: center;
+	}
+
+		.team-person{
+			width: 22.61%;
+			display: inline-block;
+			margin: 0 2.5%;
+		}
+
+		.team-person img{
+			cursor: pointer;
+			-webkit-transition: box-shadow .2s ease;
+               -moz-transition: box-shadow .2s ease;
+                -ms-transition: box-shadow .2s ease;
+                 -o-transition: box-shadow .2s ease;
+                    transition: box-shadow .2s ease;
+		}
+
+		.team-person img:hover{
+			position: relative;
+            z-index: 100;
+            -webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,1);
+                    box-shadow: 0 0 9px 0 rgba(0,0,0,1);
+		}
+
+		.team-person
+
+			.team-character{
+				color: #000;
+				font-size: 24px;
+				font-weight: 700;
+				text-transform: uppercase;
+				text-align: center;
+				padding-top: 10%;
+			}
+			
+			.position{
+				color: #000;
+				font-size: 18px;
+				font-weight: 300;
+				text-align: center;
+				padding-top: 10%;
+			}	

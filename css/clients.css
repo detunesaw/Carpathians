@@ -1,0 +1,72 @@
+.clients{
+	padding-top: 120px;
+}
+
+.clients-title {
+	color: #000;
+}
+
+	.clients-text {
+		text-align: center;
+		padding-top: 36px;
+		font-size: 24px;
+		font-family: 'Crimson Text';
+	}
+
+	.clients-list {
+		margin-top: 116px;
+		font-size: 0;
+		width: 100%;
+	}
+
+		.clients-list-item {
+			width: 25%;
+			display: inline-block;
+			float: left;
+			border-top: 1px solid #ebebeb;
+			box-sizing: border-box;
+			line-height: 244px;
+		}
+
+		.brand{
+			margin: 0 auto;
+		}
+			.brand>img{
+			vertical-align: middle;
+			}
+
+		.apple{
+			width: 81px;
+		}
+
+		.vogue{
+			width: 166px;
+		}
+
+		.starbucks{
+			width: 179px;
+		}
+
+		.nivea{
+			width: 178px;
+		}
+
+		.chanel{
+			width: 186px;
+		}
+
+		.microsoft{
+			width: 179px;
+		}
+
+		.nintendo{
+			width: 186px;
+		}
+
+		.go{
+			width: 147px;
+		}
+		
+	.border-clients-list {
+		border-right: 1px solid #ebebeb;
+	}

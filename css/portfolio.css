@@ -1,0 +1,106 @@
+/* PORTFOLIO ALL */
+
+.portfiolio{
+    background: white;
+}
+
+    .portfolio .container{
+        text-align: center;
+    }
+
+/* TEXT */
+
+    .portfolio h2{
+        font-size: 48px;
+        font-weight: 700;
+        margin: 100px 0 35px 0;
+        padding-bottom: 15px;
+        text-transform: uppercase;
+        color: #000;
+        border-bottom: 4px solid #f4c60b;
+    }
+
+        .portfolio p{
+            font-family: 'Crimson Text';
+            font-size: 24px;
+            font-weight: 400;
+            line-height: 36px;
+            display: inline-block;
+            width: 450px;
+            margin-bottom: 50px;
+            text-align: center;
+            color: #000;
+        }
+
+/* NAVIGATION */
+
+    .examples{
+        display: table;
+        margin: 0 auto 50px auto;
+    }
+    
+        .examples li{
+            font-size: 14px;
+            font-weight: 300;
+            display: table-cell;
+            float: left;
+            margin-left: -1px;
+            padding: 10px 17px;
+            text-transform: uppercase;
+            color: #000;
+            border: 1px solid #f4c60b;
+        }
+        
+        .examples li:hover{
+            cursor: pointer;
+            background: rgba(244,198,11,.3);
+        }
+    
+/* GALLERY */
+
+    .gallery{
+        margin-bottom: 50px;
+    }
+
+        .gallery img{
+            float: left;
+            width: 25%;
+            cursor: pointer;
+            -webkit-transition: box-shadow .2s ease;
+               -moz-transition: box-shadow .2s ease;
+                -ms-transition: box-shadow .2s ease;
+                 -o-transition: box-shadow .2s ease;
+                    transition: box-shadow .2s ease;
+        }
+
+        .gallery img:hover{
+            position: relative;
+            z-index: 100;
+            -webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,1);
+                    box-shadow: 0 0 9px 0 rgba(0,0,0,1);
+        }
+
+    .load-more{
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 70px;
+        display: inline-block;
+        width: 260px;
+        height: 70px;
+        margin-bottom: 100px;
+        cursor: pointer;
+        -webkit-transition: background .1s ease;
+           -moz-transition: background .1s ease;
+            -ms-transition: background .1s ease;
+             -o-transition: background .1s ease;
+                transition: background .1s ease;
+        text-align: center;
+        text-transform: uppercase;
+        color: #000;
+        border: 3px solid #f4c60b;
+        background-color: transparent;
+    }
+    
+    .load-more:hover{
+        background: rgba(228,228,228,.3);
+    }

@@ -1,0 +1,35 @@
+.quote{
+	background: #000 url(../pic/layer-20.png);
+	background-size: auto 100%;
+	padding-top: 7.49%;
+	padding-bottom: 7.313%;
+}
+
+	.left-quotes{
+		width: 1.57%;
+		margin-left: 13.25%;
+	}
+
+	.quote-text{
+		margin: 1.56% auto 0;
+		width: 66.875%;
+		color: #fff;
+		font-family: "Crimson Text";
+		font-size: 34px;
+		font-weight: 400;
+	}
+
+	.right-quotes{
+		width: 1.57%;
+		margin-top: 1.125%;
+		margin-left: 84.875%;
+	}
+	
+	.Yukio-Mishima{
+		width: 10.25%;
+		margin-top: 2.94%;
+		margin-left: 73.25%;
+		color: #fff;
+		font-size: 24px;
+		font-weight: 400;
+	}

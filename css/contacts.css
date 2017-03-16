@@ -1,0 +1,56 @@
+.contacts {
+	background: #000 url(../pic/contacts.png) no-repeat;
+	background-size: cover;
+	padding: 40px 0;
+	background-position: 50% 50%;
+}
+
+	.title-contacts {
+		color: #ffffff;
+	}
+
+	.forms-contacts {
+		width: 550px;
+		background-image: inherit;
+		margin: 99px auto;
+		text-align: center;
+	}
+
+		.edit-contacts {
+			border: 3px solid #fff;
+			background: inherit;
+			color: #fff;
+			font-size: 14px;
+			font-weight: 700;
+			text-transform: uppercase;
+			margin-bottom: 16px;
+			line-height: 50px;
+			width: 219px;
+			margin-left: 10px;
+			margin-right: 10px;
+			padding-left: 16px;
+		}
+
+		.textarea-contacts {
+			border: 3px solid #fff;
+			background: inherit;
+			color: #fff;
+			font-size: 14px;
+			width: 496px;
+			height: 214px;
+		}
+
+		.contacts-button {
+			background-color: #f4c60b;
+			margin: 8px 343px 60px 0px;
+			width: 160px;
+			line-height: 55px;
+			border: none;			
+			font-size: 14px;
+			font-weight: 700;
+			text-transform: uppercase;
+		}
+
+		.contacts-button:hover {
+			color: #fff;
+		}		

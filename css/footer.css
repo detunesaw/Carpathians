@@ -1,0 +1,45 @@
+section.footer {
+	background: #303030;
+	padding: 53px 0 19px 0;
+}
+
+	.footer-image {
+		width: 2.5%;
+		margin: 0 auto;
+	}
+	
+	.footer-text, .footer-copyright {
+		color: #fff;
+		text-align: center;
+	}
+
+	.footer-title {
+		padding-top: 20px;
+		padding-bottom: 17px;
+		color: #fff;
+		font-size: 24px;
+	}
+
+	.footer-text {
+		font-style: italic;
+		font-family: 'Crimson Text';
+		font-size: 12px;
+		margin-bottom: 64px;
+	}
+
+	.footer-images {
+		margin: 0 auto;
+		text-align: center;
+	}
+		.footer-google, .footer-facebook, .footer-twitter {
+			display: inline-block;
+		}
+
+		.footer-google, .footer-facebook{
+			margin-right: 14px;
+		}
+
+	.footer-copyright {
+		margin-top: 38px;
+		font-size: 12px;
+	}

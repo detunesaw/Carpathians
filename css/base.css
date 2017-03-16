@@ -1,0 +1,51 @@
+.clearfix {
+	content: '';
+	clear: both;
+	display: table;
+	overflow: hidden;
+}
+
+body{
+	font-family: 'Raleway';
+}
+
+.section-name{
+	text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.title::after {
+	content: '';
+	display: block;
+	height: 4px;
+	background-color: #f4c60b;
+	margin: 4px auto 0;
+}
+
+.container {
+	max-width: 1150px;
+	min-width: 715px;
+	margin: 0 auto;
+}
+
+section {
+	min-width: 715px;
+}
+
+h2 {
+    display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+img {
+	width: 100%;
+}
